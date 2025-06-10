@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 150px;
+}
+nav{
+    width: 100%;
+    height: 30px;
+    height: 290px;
+}
+.contenido-1{
+    width: 100%;
+    height: 135px;
+    margin-top: 20px;
+}
+.contenido-2{
+    width: 49.5%;
+    height: 135px;
+    margin-top: 20px;
+}
+.container-contenido-2 {
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    width: 100%;
+    height: 95px;
+}
+/*Reutilizables*/
+.container {
+    max-width: 85%;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+.color-gris{
+    background-color: #93B5C9;
+}
+.color-vino{
+    background-color: #AB2849;
+}
+.container-footer{
+    display: flex;
+    align-items: flex-end;
+    height: 120px;
+}
